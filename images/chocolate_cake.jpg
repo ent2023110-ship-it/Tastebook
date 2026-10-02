@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="cakeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E2723"/>
+      <stop offset="100%" stop-color="#5D4037"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#cakeGrad)"/>
+  <!-- Cake slice -->
+  <polygon points="300,280 500,280 470,160 300,160" fill="#4E342E"/>
+  <!-- Layers -->
+  <rect x="300" y="215" width="185" height="15" fill="#D7CCC8"/>
+  <rect x="300" y="150" width="170" height="15" fill="#3E2723" rx="4"/>
+  <!-- Cherry / strawberry on top -->
+  <circle cx="380" cy="135" r="16" fill="#D32F2F"/>
+  <text x="400" y="410" font-family="'Outfit', Arial, sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Decadent Molten Chocolate Fudge Cake</text>
+  <text x="400" y="445" font-family="'Outfit', Arial, sans-serif" font-size="18" fill="#ffffff" opacity="0.9" text-anchor="middle">Sweet Dessert Delicacy</text>
+</svg>

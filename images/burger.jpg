@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="burgerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E342E"/>
+      <stop offset="100%" stop-color="#8D6E63"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#burgerGrad)"/>
+  <!-- Top Bun -->
+  <path d="M280,180 Q400,90 520,180 Z" fill="#FFA726"/>
+  <!-- Lettuce -->
+  <path d="M260,185 Q400,205 540,185" stroke="#43A047" stroke-width="12" fill="none"/>
+  <!-- Patty -->
+  <rect x="270" y="200" width="260" height="35" rx="10" fill="#3E2723"/>
+  <!-- Cheese -->
+  <polygon points="280,230 520,230 500,250 480,230 400,255 350,230" fill="#FDD835"/>
+  <!-- Bottom Bun -->
+  <rect x="280" y="245" width="240" height="40" rx="15" fill="#FFA726"/>
+  <text x="400" y="410" font-family="'Outfit', Arial, sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Juicy Gourmet Beef &amp; Cheese Burger</text>
+  <text x="400" y="445" font-family="'Outfit', Arial, sans-serif" font-size="18" fill="#ffffff" opacity="0.9" text-anchor="middle">Flame Grilled Artisan Burger</text>
+</svg>
